@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CPMAI Study Flashcards</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>CPMAI Study Flashcards</h1>
+  <div id="setup">
+    <label for="domainSelect">Choose domain:</label>
+    <select id="domainSelect">
+      <option value="all">All Domains</option>
+      <option value="AI Fundamentals">AI Fundamentals</option>
+      <option value="CPMAI Methodology">CPMAI Methodology</option>
+      <option value="Machine Learning">Machine Learning</option>
+      <option value="Data for AI">Data for AI</option>
+      <option value="Managing AI">Managing AI</option>
+      <option value="Trustworthy AI">Trustworthy AI</option>
+    </select>
+    <button id="startBtn">Start</button>
+  </div>
+
+  <div id="cardArea" class="hidden">
+    <div id="card" class="card">
+      <div id="front" class="side"></div>
+      <div id="back" class="side hidden"></div>
+    </div>
+    <div class="controls">
+      <button id="flipBtn">Flip</button>
+      <button id="prevBtn">Prev</button>
+      <button id="nextBtn">Next</button>
+    </div>
+    <p id="progress"></p>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
