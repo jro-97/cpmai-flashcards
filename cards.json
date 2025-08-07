@@ -1,0 +1,62 @@
+[
+  {
+    "domain": "AI Fundamentals",
+    "prompt": "What are the seven common patterns of AI identified in CPMAI?",
+    "answer": "(1)Recognition/Pattern and Anomaly Detection (2)Conversation and Human Interaction (3)Goal\u2011driven Systems (4)Autonomous Systems (5)Predictive Analytics and Decision Support (6)Hyper\u2011personalization (7)Reasoning and Optimization"
+  },
+  {
+    "domain": "AI Fundamentals",
+    "prompt": "Which learning type uses labelled data: supervised, unsupervised, or reinforcement?",
+    "answer": "Supervised learning"
+  },
+  {
+    "domain": "CPMAI Methodology",
+    "prompt": "Which CPMAI phase focuses on clarifying business objectives and success criteria?",
+    "answer": "Phase\u202fI \u2013 Business Understanding"
+  },
+  {
+    "domain": "CPMAI Methodology",
+    "prompt": "What is the gate decision called that determines whether an AI project moves from Data Preparation to Model Development?",
+    "answer": "Phase\u202fIII Go/No\u2011Go"
+  },
+  {
+    "domain": "Machine Learning",
+    "prompt": "What problem does overfitting describe?",
+    "answer": "A model that performs well on training data but poorly on unseen data, capturing noise instead of signal."
+  },
+  {
+    "domain": "Data for AI",
+    "prompt": "Name at least three of the four Vs of Big Data.",
+    "answer": "Volume, Variety, Velocity, (and) Veracity"
+  },
+  {
+    "domain": "Managing AI",
+    "prompt": "What is model drift?",
+    "answer": "Degradation of model performance over time because real\u2011world data distribution changes from the training data."
+  },
+  {
+    "domain": "Trustworthy AI",
+    "prompt": "Which EU regulation is shaping global discussions on AI risk categories?",
+    "answer": "The EU AI Act."
+  },
+  {
+    "domain": "CPMAI Methodology",
+    "prompt": "List the six phases of the CPMAI methodology in order.",
+    "answer": "(I) Business Understanding (II) Data Understanding (III) Data Preparation (IV) Model Development (V) Model Evaluation (VI) Model Operationalization & Lifecycle."
+  },
+  {
+    "domain": "Machine Learning",
+    "prompt": "Explain the difference between bagging and boosting.",
+    "answer": "Bagging builds independent models on bootstrapped samples and averages them; boosting builds models sequentially where each new model focuses on errors of the prior."
+  },
+  {
+    "domain": "Data for AI",
+    "prompt": "What practice ensures each data field has a clear owner and stewardship?",
+    "answer": "Data governance / data stewardship assignment."
+  },
+  {
+    "domain": "Trustworthy AI",
+    "prompt": "What is an adversarial attack?",
+    "answer": "Inputs crafted to intentionally fool an AI model into making incorrect predictions."
+  }
+]
